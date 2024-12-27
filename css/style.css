@@ -346,7 +346,7 @@ About
 .about-area {
   width: 100%;
   height: 60vh;
-  background-image: url("https://github.com/ryoichi-kuroda/akitabeef/blob/main/img/wagyu1.jpg?raw=true");
+  background-image: url("/img/wagyu1.jpg?raw=true");
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
