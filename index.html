@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Akita beef restaurant</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキス">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/icons8-牛-64.png">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="splash">
+        <div id="splash_text"><img src="img/icons8-牛白-64.png" alt="" class="icon" id="loading-icon">AKITA BEEF
+            RESTAURANT</div>
+        <div class="loader_cover loader_cover-up"></div><!--上に上がるエリア-->
+        <div class="loader_cover loader_cover-down"></div><!--下に下がるエリア-->
+        <!--/splash-->
+    </div>
+
+    <!-- ヘッダー -->
+    <header id="header">
+        <h1 class="site-title">
+            <a href="index.html"><img src="img/Dinner.png" alt="Akita beef restaurant"></a>
+        </h1>
+
+        <nav id="navi">
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#concept">Concept</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#access">Access</a></li>
+            </ul>
+            <ul class="nav-sns">
+                <li><a href="https://twitter.com/"><img class="sns-icon" src="img/icons8-ツイッターx-50.png" alt="x"><span
+                            class="sns-name">X</span></a></li>
+                <li><a href="https://www.instagram.com/"><img class="sns-icon" src="img/icons8-インスタグラム-50.png"
+                            alt="instagram"><span class="sns-name">Instagram</span></a></li>
+                <li><a href="https://www.Facebook.com/"><img class="sns-icon" src="img\icons8-facebook-50.png"
+                            alt="facebook"><span class="sns-name">Facebook</span></a></li>
+            </ul>
+        </nav>
+
+        <div class="toggle_btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div id="mask"></div>
+    </header>
+
+    <main id="main">
+        <!-- メインビジュアル -->
+        <p class="main-word">秋田牛で<br>世界に感動を</p>
+        <p class="sub-word">AKITA BEEF</p>
+        <div class="main-visual">
+            <ul class="fade-video">
+                <li><video class="main-video" src="img/grill-people.mp4"loop autoplay muted
+                        playsinline></video></li>
+                <li><video class="main-video" src="img/people-meal_small.mp4" loop autoplay muted
+                        playsinline></video></li>
+                <li><video class="main-video" src="img/steak-grill.mp4" loop autoplay muted
+                        playsinline></video></li>
+            </ul>
+        </div>
+        <!-- About -->
+        <section id="about">
+            <h2 class="sec-title"><img src="img/icons8-牛白-64.png" alt="cow-icon" class="icon">About</h2>
+            <div class="about-area">
+                <div class="about-text">
+                    <h3>「秋田牛とは？」</h3>
+                    <p>秋田の豊かで広大な自然とともに育まれる黒毛和牛で
+                        「米の国秋田」の特徴を生かし、飼料に「お米」を与えています。
+                        柔らかく旨味が強く、そして甘味ある脂身が口の中でほどけます。
+                        生産者のたゆまぬ努力で育てられた「秋田牛」は全国から高い評価を受けています。
+                    </p>
+                </div>
+            </div>
+            <h4 class="standard-title">下記の基準を満たしたお肉だけが「秋田牛」として流通します</h4>
+            <ul class="standard-list">
+                <li>
+                    <p class="title">品種</p>
+                    <p>黒毛和種</p>
+                    <img src="img/icons8-保証-50.png" alt="standard-icon">
+
+                </li>
+                <li>
+                    <p class="title">肉質</p>
+                    <p>3等級以上</p>
+                    <img src="img/icons8-保証-50.png" alt="standard-icon">
+                </li>
+                <li>
+                    <p class="title">産地</p>
+                    <p>最長飼養地が<br>秋田県</p>
+                    <img src="img/icons8-保証-50.png" alt="standard-icon">
+                </li>
+                <li>
+                    <p class="title">エサ</p>
+                    <p>飼料用米を<br>一定量給与</p>
+                    <img src="img/icons8-保証-50.png" alt="standard-icon">
+                </li>
+            </ul>
+        </section>
+        <!-- Concept -->
+        <section id="concept">
+            <h2 class="sec-title"><img src="img/icons8-牛白-64.png" alt="cow-icon" class="icon">Concept</h2>
+            <p class="concept-word">SELECTION</p>
+
+            <div class="container-1">
+                <p class="concept-word">SELECTION</p>
+                <h3 class="concept-1">厳選</h3>
+                <p class="concept-text-1">熟練の職人による目利きにこだわることで
+                    <br>その日一番の牛を選び、一頭買いにて仕入れております。
+                </p>
+                <div class="image-contents">
+                    <img src="img/kyle-mackie-_ETocJt6ZBc-unsplash.jpg" alt="cut-people" class="fadein cut-image-1">
+                    <img src="img/kyle-mackie-6xPznJBLhgg-unsplash.jpg" alt="cut-people" class="fadein cut-image-2">
+                    <img src="img/zachary-delorenzo-z_9pxMb_tWM-unsplash.jpg" alt="cut-people"
+                        class="fadein cut-image-3">
+                    <img src="img/kyle-mackie-MEnlQv-EQvY-unsplash.jpg" alt="beef" class="fadein cut-image-4">
+                    <img src="img/shef2.jpg" alt="cut-people" class="fadein cut-image-5">
+                </div>
+            </div>
+
+            <div class="container-2">
+                <p class="concept-word">TECHNIQUE</p>
+                <h3 class="concept-2">技術</h3>
+                <p class="concept-text-2">絶妙の火入れと調理で
+                    <br>秋田牛の旨味を最大限に引き出します
+                </p>
+                <div class="image-contents">
+                    <ul class="fade">
+                        <li><img src="img/cutsteak5.jpg" alt="steak"></li>
+                        <li><img src="img/beef-6779218_1280.jpg" alt="steak"></li>
+                        <li><img src="img/steak-7423231_1280.jpg" alt="steak"></li>
+                    </ul>
+                    <div class="video">
+                        <video class="bg-video" src="img/焼き.mp4" loop autoplay muted playsinline></video>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-3">
+                <p class="concept-word">INTERIOR</p>
+                <h3 class="concept-3">空間</h3>
+                <p class="concept-text-3">カジュアルでスタイリッシュに
+                    <br>様々なシーンに合わせてお客様をおもてなし致します
+                </p>
+                <div class="interior-image-1">
+                </div>
+                <div class="interior-image-2">
+                </div>
+            </div>
+            </div>
+
+        </section>
+
+        <!-- Menu -->
+        <section id="menu">
+            <h2 class="sec-title"><img src="img/icons8-牛白-64.png" alt="" class="icon">Menu</h2>
+            <div class="grid">
+                <div class="item">
+                    <img class="fadein" src="img/cutsteak3.jpg" alt="cut-steak">
+                    <div class="item-content">
+                        <p class="item-cat">Main Food</p>
+
+                        <dl id="food-menu">
+                            <dt>秋田牛のビーフステーキ</dt>
+                            <dd>2,000円</dd>
+                            <dt>秋田牛のローストビーフ</dt>
+                            <dd>1,800円</dd>
+                            <dt>秋田牛のたたき</dt>
+                            <dd>1,600円</dd>
+                            <dt>秋田牛のビーフハンバーガー</dt>
+                            <dd>1,600円</dd>
+                            <dt>秋田牛のハンバーグステーキ</dt>
+                            <dd>1,600円</dd>
+                            <dt>秋田牛の赤ワイン煮込み</dt>
+                            <dd>1,400円</dd>
+                            <dt>秋田牛のビーフストロガノフ</dt>
+                            <dd>1,600円</dd>
+                            <dt>秋田牛のユッケ</dt>
+                            <dd>1,200円</dd>
+                        </dl>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img class="fadein" src="img/wine1.jpg" alt="wine">
+                    <div class="item-content">
+                        <p class="item-cat">Wine</p>
+
+                        <dl id="wine-menu">
+                            <dt>カベルネ・ソーヴィニヨン</dt>
+                            <dd>2,000円</dd>
+                            <dt>メルロー</dt>
+                            <dd>1,800円</dd>
+                            <dt>ピノ・ノワール</dt>
+                            <dd>1,600円</dd>
+                            <dt>シラー</dt>
+                            <dd>1,600円</dd>
+                            <dt>ジンファンデル</dt>
+                            <dd>1,600円</dd>
+                            <dt>サンジョヴェーゼ</dt>
+                            <dd>1,600円</dd>
+                            <dt>マルベック</dt>
+                            <dd>1,600円</dd>
+                            <dt>テンプラニーリョ</dt>
+                            <dd>1,600円</dd>
+                            <dt>ガメイ</dt>
+                            <dd>1,600円</dd>
+                            <dt>ネッビオーロ</dt>
+                            <dd>1,600円</dd>
+                        </dl>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img class="fadein" src="img/food2.jpg" alt="appetizer">
+                    <div class="item-content">
+                        <p class="item-cat">Appetizer</p>
+
+                        <dl id="appetizer-menu">
+                            <dt>ブロッコリーのアーリオ・オーリオ</dt>
+                            <dd>2,000円</dd>
+                            <dt>タコとオリーブのジェノベーゼ風</dt>
+                            <dd>1,800円</dd>
+                            <dt>砂ズリのコンフィ</dt>
+                            <dd>1,600円</dd>
+                            <dt>さつまいものオレンジ煮</dt>
+                            <dd>1,600円</dd>
+                            <dt>イタリア産白いんげん豆のサラダ</dt>
+                            <dd>1,600円</dd>
+                            <dt>自家製ピクルス</dt>
+                            <dd>1,600円</dd>
+                            <dt>キャロットラペ</dt>
+                            <dd>1,600円</dd>
+                            <dt>旬魚のカルピオーネ</dt>
+                            <dd>1,600円</dd>
+                            <dt>自家製ポテトサラダ</dt>
+                            <dd>1,600円</dd>
+                            <dt>フリッタータ</dt>
+                            <dd>1,600円</dd>
+                            <dt>シチリア産オリーブ</dt>
+                            <dd>1,600円</dd>
+                            <dt>カポナータ</dt>
+                            <dd>1,600円</dd>
+                            <dt>ドライフルーツ</dt>
+                            <dd>1,600円</dd>
+                            <dt>ミックスナッツ</dt>
+                            <dd>1,600円</dd>
+                        </dl>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img class="fadein" src="img/wine3.jpg" alt="drinks">
+                    <div class="item-content">
+                        <p class="item-cat">Soft Drink</p>
+
+                        <dl id="softdrink-menu">
+                            <dt>ペリエ</dt>
+                            <dd>600円</dd>
+                            <dt>コーラ</dt>
+                            <dd>500円</dd>
+                            <dt>白神山水</dt>
+                            <dd>400円</dd>
+                            <dt>鳥海山自然水</dt>
+                            <dd>400円</dd>
+                            <dt>黒烏龍茶</dt>
+                            <dd>500円</dd>
+                            <dt>100%オレンジジュース</dt>
+                            <dd>400円</dd>
+                            <dt>100%グレープジュース</dt>
+                            <dd>400円</dd>
+                            <dt>100%アップルジュース</dt>
+                            <dd>400円</dd>
+                            <dt>アイスコーヒー</dt>
+                            <dd>500円</dd>
+                            <dt>アイスカフェラテ</dt>
+                            <dd>600円</dd>
+                            <dt>ホットコーヒー</dt>
+                            <dd>500円</dd>
+                            <dt>ホットカフェラテ</dt>
+                            <dd>600円</dd>
+                        </dl>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- News -->
+        <section id="news">
+            <h2 class="sec-title"><img src="img/icons8-牛白-64.png" alt="" class="icon">News</h2>
+            <dl>
+                <dt>2024.09.01</dt>
+                <dd>9月の定休日のお知らせ<br>定休日は4日、10日、15日、23日でございます。</dd>
+                <dt>2024.08.20</dt>
+                <dd>番組で紹介されました！<br>秋田市テレビ「秋田の特産品コーナー」で当店が出演！</dd>
+                <dt>2024.08.01</dt>
+                <dd>8月の定休日のお知らせ<br>定休日は3日、9日、16日、24日でございます。</dd>
+            </dl>
+        </section>
+
+        <!-- Access -->
+        <section id="access">
+            <h2 class="sec-title"><img src="img/icons8-牛白-64.png" alt="" class="icon">Access</h2>
+
+            <div class="google-map"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3069.0365544254987!2d140.1283358!3d39.7163612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8fc292e4108ab9%3A0x5c440e0811098507!2z44CSMDEwLTAwMDEg56eL55Sw55yM56eL55Sw5biC5Lit6YCa77yX5LiB55uu77yR4oiS77yR!5e0!3m2!1sja!2sjp!4v1728184787723!5m2!1sja!2sjp"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+            <div class="contact-info">
+                <dl class="store-name">
+                    <dt>店名</dt>
+                    <dd>AKITA BEEF RESTAURANT</dd>
+                </dl>
+                <dl class="route">
+                    <dt>アクセス</dt>
+                    <dd>秋田県秋田市中通7丁目1</dd>
+                </dl>
+                <dl class="phone-number">
+                    <dt>TEL</dt>
+                    <dd>018-000-000</dd>
+                </dl>
+                <dl class="hours">
+                    <dt>営業時間</dt>
+                    <dd>17:00～24:00</dd>
+                    <dd>（L.O 23:00）</dd>
+                </dl>
+            </div>
+
+            </div>
+
+        </section>
+
+    </main>
+    <!-- フッター -->
+    <footer id="footer">
+
+        <a class="reserve-btn" href="https://tabelog.com/"><img class="reserve-icon" src="img/icons8-牛-64.png"
+                alt="">予約サイト</a>
+        <p>&copy; Akita Beef</p>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
